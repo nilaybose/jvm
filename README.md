@@ -61,3 +61,8 @@ Log Compilation: java -XX:+UnlockDiagnosticVMOptions -XX:+LogCompilation -XX:+Pr
 - InitialCodeCacheSize=n
 - ReservedCodeCacheSize=n
 - CodeCacheExpansionSize=n
+
+### Native Compiler Tuning
+
+- -XX:CICompilerCount=n
+- -XX:CompileThreshhold=n, number of times method needs to be run before it is put in cache
