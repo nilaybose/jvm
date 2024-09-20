@@ -27,7 +27,6 @@ public class LokTimeZoneSvc {
             return false;
         }
 
-        String dateString = "2024-11-03T02:00:00";
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss"); // Adjust pattern as needed
         // Parse the Date string into a LocalDateTime object
         LocalDateTime localDateTime = LocalDateTime.parse(localDateTimeStr, formatter);
