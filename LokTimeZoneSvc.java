@@ -8,6 +8,8 @@ import java.util.Map;
 /**
  * //In the U.S., daylight saving time starts on the second Sunday in March
  * and ends on the first Sunday in November, with the time changes taking place at 2:00 a.m. local time.
+ * Likewise, every year, daylight saving time ends on the first Sunday of November. 
+ * This means that at 2 a.m. local time, the local time jumps back to 1 a.m. and that hour is repeated, so there is one extra hour in that day
  */
 public class LokTimeZoneSvc {
     Map<String, ZoneId> zonesWithDayLight = new HashMap<>();
